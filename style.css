@@ -450,10 +450,19 @@ article .icon-check {
   color: black;
 }
 
+.project-img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  height: auto; /* Maintain the aspect ratio of images */
+}
+
+
 .project-btn{
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+
+
 
 .project-img{
   height: 400px;
@@ -463,7 +472,7 @@ article .icon-check {
 
 }
 
-#projects {
+ #projects {
   /* Your section styles go here */
 }
 
